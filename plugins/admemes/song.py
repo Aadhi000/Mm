@@ -49,7 +49,7 @@ def song(client, message):
         open(thumb_name, 'wb').write(thumb.content)
 
 
-        performer = f"› ᴀᴊᴀx sᴏɴɢs ‹" 
+        performer = f"› ʜɪxxᴇʀ sᴏɴɢs ‹" 
         duration = results[0]["duration"]
         url_suffix = results[0]["url_suffix"]
         views = results[0]["views"]
@@ -69,8 +69,7 @@ def song(client, message):
         rep = f"""
 **❖ ᴛɪᴛʟᴇ ›› [{title}]({link})**
 **❖ ᴅᴜʀᴀᴛɪᴏɴ ›› {duration}**
-**❖ sᴜʙsᴄʀɪʙᴇ ›› [ᴏᴘᴜsᴛᴇᴄʜᴢ](https://youtube.com/OpusTechz)**
-**❖ ᴘᴏᴡᴇʀᴅ ʙʏ ›› [ᴀᴊᴀx](https://t.me/Devil0bot_Bot)**
+**❖ ᴘᴏᴡᴇʀᴅ ʙʏ ›› [ʜɪxxᴇʀ](https://t.me/Hixxerbot)**
 **❖ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ›› {rpk}**
 """
         secmul, dur, dur_arr = 1, 0, duration.split(':')
